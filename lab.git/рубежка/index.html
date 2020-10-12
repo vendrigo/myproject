@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".ink").animate({marginLeft:"100",marginTop:"100"}),
+			$("button").click(function(){
+					$(".ink").toggle();
+			});
+		});
+	</script>
+</head>
+<body>
+	<button>Click me</button>
+	<div class="ink"><img style="width: 100px; height: 100px" src="rub.jpg"></div>
+
+</body>
+</html>
